@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Thava-OX/ThavaXMusic",
+    "https://github.com/Ragu420/Ragumusc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TBNBotsNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TBNBotsNetworkSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ANBE_SIVAM_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Crazy_Friends_Tamil")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @TBN_StringGeneratorRobot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQFbmf0AG1cfYmKk--Cnp7phy1d-ULg_-CveljWjSUZixrF9K5piXsPjL-sw1M56q0ZRfhxI-K8unN9_R3JK0Wc93aRL7V03zmWkXJM-oQ56hOWljqcTgALLdqhYW5BBzf0LJNNpZoEj-R-JBBDYOSbk_e_cMv-VrtILGNtH4yl_ieFuV0IPKGoBEmA5CfreGx9X59srTEK_5MOo_ebCkmLTDUozHNNEvb7zKHoDNqhHrwJLKyafHvvscIOMwJI86gP86fpXZzmJIMU0cNomIZMxjJ9VXNBvubjFhhFNzX6EPaJog_hacxftuYpyVuHytQ9vjY1of8G5962Zgir1iO3zg7DI9gAAAAGStXFJAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
